@@ -160,6 +160,7 @@
             // 
             this.txtCelular.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.txtCelular.Location = new System.Drawing.Point(194, 236);
+            this.txtCelular.MaxLength = 10;
             this.txtCelular.Name = "txtCelular";
             this.txtCelular.Size = new System.Drawing.Size(180, 21);
             this.txtCelular.TabIndex = 22;
@@ -168,6 +169,7 @@
             // 
             this.txtTelefono.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.txtTelefono.Location = new System.Drawing.Point(194, 201);
+            this.txtTelefono.MaxLength = 9;
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(180, 21);
             this.txtTelefono.TabIndex = 21;
@@ -192,6 +194,7 @@
             // 
             this.txtCedula.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
             this.txtCedula.Location = new System.Drawing.Point(194, 49);
+            this.txtCedula.MaxLength = 10;
             this.txtCedula.Name = "txtCedula";
             this.txtCedula.Size = new System.Drawing.Size(180, 21);
             this.txtCedula.TabIndex = 18;
