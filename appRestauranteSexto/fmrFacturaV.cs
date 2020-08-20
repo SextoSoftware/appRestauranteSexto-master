@@ -121,7 +121,7 @@ namespace appRestauranteSexto
 
             var sub = Convert.ToDouble(txtCantidadProducto.Text) * Convert.ToDouble(txtPVenta.Text);
             dtgFactura.Rows[i].Cells[4].Value = sub.ToString();
-            dtgFactura.Rows[i].Cells[0].Value = cmbProducto.SelectedValue.ToString(); 
+            dtgFactura.Rows[i].Cells["idVenta"].Value = cmbProducto.SelectedValue.ToString(); 
             dtgFactura.Rows[i].Cells["Identificador"].Value = identificador;
            // guardar();
 
